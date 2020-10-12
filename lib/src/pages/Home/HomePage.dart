@@ -135,6 +135,9 @@ class _HomePageState extends State<HomePage> {
                         ],
                       ),
                     );
+
+                    _nameController.text = "";
+                    _messageController.text = "";
                   },
                   child: Text(
                     "Enviar",
